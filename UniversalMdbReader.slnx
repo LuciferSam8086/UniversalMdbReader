@@ -1,0 +1,18 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Release" />
+    <BuildType Name="x64" />
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="UniversalMdbReader/UniversalMdbReader.csproj">
+    <BuildType Solution="x64|x64" Project="Release" />
+    <BuildType Solution="x64|x86" Project="Debug" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Platform Solution="Debug|x64" Project="x64" />
+    <Platform Solution="Release|x64" Project="x64" />
+    <Build Solution="x64|Any CPU" Project="false" />
+  </Project>
+</Solution>
